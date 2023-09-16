@@ -13,5 +13,9 @@ class Book extends Media {
     }
 }
 
-let someBook = new Book("The hitchhiker's guide to the galaxy");
-console.log(someBook.name);
+// let someBook = new Book("The hitchhiker's guide to the galaxy");
+// console.log(someBook.name);
+
+module.exports = {
+    Book
+}
