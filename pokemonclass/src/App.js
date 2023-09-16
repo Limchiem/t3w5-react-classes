@@ -5,6 +5,7 @@ import PokemonDisplay from './PokemonDisplay';
 function App() {
   return (
     <div className="App">
+      <h1>Hello World!</h1>
       {/* PokemonDisplay is an instance of the component */}
       <PokemonDisplay/>
     </div>
